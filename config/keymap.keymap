@@ -20,14 +20,14 @@
 
         layer_0 {
             bindings = <
-&kp TAB    &kp Q       &kp W             &kp E     &kp R             &kp T  &kp Y      &kp U      &kp I  &kp O           &kp P           &kp BSPC
-&mo 5      &kp A       &kp S             &kp D     &kp F             &kp G  &kp H      &kp J      &kp K  &kp L           &kp MINUS       &kp ENTER
-&kp LSHFT  &kp Z       &kp X             &kp C     &kp V             &kp B  &kp SPACE  &kp SPACE  &kp N  &kp M           &kp COMMA       &kp DOT          &kp UP_ARROW  &mt RSHFT QUESTION
-&mo 2      &kp ESCAPE  &kp LEFT_CONTROL  &kp LALT  &kp LEFT_COMMAND  &mo 2  &kp SPACE  &kp SPACE  &mo 3  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp TAB           &kp Q             &kp W         &kp E          &kp R           &kp T  &kp Y       &kp U             &lt 4 I  &kp O           &kp P           &kp BSPC
+&mo 5             &kp A             &kp S         &kp D          &kp F           &kp G  &kp H       &kp J             &kp K    &kp L           &kp MINUS       &kp ENTER
+&kp LSHFT         &kp Z             &kp X         &kp C          &kp V           &kp B  &kp ESCAPE  &kp LC(UP_ARROW)  &kp N    &kp M           &kp COMMA       &kp DOT      &kp UP_ARROW  &lt 1 QUESTION
+&kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LG(SPACE)  &kp LEFT_SHIFT  &mo 2  &kp SPACE   &kp SPACE         &mo 5    &kp LEFT_ARROW  &kp DOWN_ARROW  &lt 3 RIGHT
             >;
         };
 
-        layer_1 {
+        MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                &mkp LCLK  &mo 4             &mkp RCLK  &trans                 &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp RG(LEFT_BRACKET)  &mkp MB1   &mkp MB3          &mkp MB2   &kp RG(RIGHT_BRACKET)  &trans
@@ -36,16 +36,16 @@
             >;
         };
 
-        layer_2 {
+        NUMBER {
             bindings = <
-&kp ESCAPE  &kp N1    &kp N2  &kp N3    &kp N4      &kp N5     &kp N6     &kp N7         &kp N8     &kp N9                &kp N0                 &kp DELETE
-&trans      &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PRCNT  &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans      &trans    &trans  &trans    &trans      &trans     &trans     &trans         &kp TILDE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH
-&trans      &trans    &trans  &trans    &trans      &trans     &trans     &trans         &trans     &trans                &trans                 &trans
+&kp MINUS     &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp PLUS      &kp N5     &kp CARET        &kp AMPERSAND  &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE
+&kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp PRCNT  &kp EXCLAMATION  &kp AT_SIGN    &kp HASH   &kp DOLLAR            &kp PERCENT            &kp BACKSLASH
+&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp EQUAL  &trans           &trans         &kp TILDE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH
+&trans        &trans        &trans        &trans        &trans        &trans     &trans           &trans         &trans     &trans                &trans                 &trans
             >;
         };
 
-        layer_3 {
+        BT {
             bindings = <
 &trans        &kp F1        &kp F2        &kp F3        &kp F4        &kp F5      &trans          &kp FSLH  &kp ASTRK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
 &trans        &kp F6        &kp F7        &kp F8        &kp F9        &kp F10     &kp HOME        &trans    &kp MINUS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
@@ -54,7 +54,7 @@
             >;
         };
 
-        layer_4 {
+        SCROLL {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -63,7 +63,7 @@
             >;
         };
 
-        layer_5 {
+        FUNCTION {
             bindings = <
 &kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F12
 &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans
