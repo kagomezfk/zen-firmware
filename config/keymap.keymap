@@ -23,7 +23,7 @@
 &kp TAB           &kp Q             &kp W         &kp E          &kp R           &kp T  &kp Y       &kp U             &lt 4 I  &kp O           &kp P           &kp BSPC
 &mo 5             &kp A             &kp S         &kp D          &kp F           &kp G  &kp H       &kp J             &kp K    &kp L           &kp MINUS       &kp ENTER
 &kp LSHFT         &kp Z             &kp X         &kp C          &kp V           &kp B  &kp ESCAPE  &kp LC(UP_ARROW)  &kp N    &kp M           &kp COMMA       &kp DOT      &kp UP_ARROW  &lt 1 QUESTION
-&kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LG(SPACE)  &kp LEFT_SHIFT  &mo 2  &kp SPACE   &kp BACKSPACE     &mo 5    &kp LEFT_ARROW  &kp DOWN_ARROW  &lt 3 RIGHT
+&kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LC(SPACE)  &kp LEFT_SHIFT  &mo 2  &kp SPACE   &kp BACKSPACE     &mo 5    &kp LEFT_ARROW  &kp DOWN_ARROW  &lt 3 RIGHT
             >;
         };
 
@@ -65,10 +65,10 @@
 
         FUNCTION {
             bindings = <
-&kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F12
-&trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans
-&trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans  &trans
-&trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans
+&kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                &kp F7  &kp F8  &kp F9  &kp F10  &kp F12
+&trans   &trans  &trans  &trans  &trans  &trans  &trans                &trans  &trans  &trans  &trans   &trans
+&trans   &trans  &trans  &trans  &trans  &trans  &kp LG(LS(NUMBER_4))  &trans  &trans  &trans  &trans   &trans   &trans  &trans
+&trans   &trans  &trans  &trans  &trans  &trans  &trans                &trans  &trans  &trans  &trans   &trans
             >;
         };
 
