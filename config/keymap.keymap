@@ -20,10 +20,10 @@
 
         layer_0 {
             bindings = <
-&kp TAB           &kp Q             &kp W         &kp E          &kp R           &kp T  &kp Y       &kp U             &lt 4 I  &kp O           &kp P           &kp BSPC
-&mo 5             &kp A             &kp S         &kp D          &kp F           &kp G  &kp H       &kp J             &kp K    &kp L           &kp MINUS       &kp ENTER
-&kp LSHFT         &kp Z             &kp X         &kp C          &kp V           &kp B  &kp ESCAPE  &kp LC(UP_ARROW)  &kp N    &kp M           &kp COMMA       &kp DOT      &kp UP_ARROW  &lt 1 QUESTION
-&kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LC(SPACE)  &kp LEFT_SHIFT  &mo 2  &kp SPACE   &kp BACKSPACE     &mo 5    &kp LEFT_ARROW  &kp DOWN_ARROW  &lt 3 RIGHT
+&kp ESCAPE        &kp Q             &kp W         &kp E          &kp R           &kp T  &kp Y             &kp U          &lt 4 I  &kp O           &kp P           &kp SQT
+&kp TAB           &kp A             &kp S         &kp D          &kp F           &kp G  &kp H             &kp J          &kp K    &kp L           &kp SEMICOLON   &kp ENTER
+&kp LSHFT         &kp Z             &kp X         &kp C          &kp V           &kp B  &kp LC(UP_ARROW)  &kp MINUS      &kp N    &kp M           &kp COMMA       &kp DOT      &kp UP_ARROW  &lt 1 QUESTION
+&kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LC(SPACE)  &kp LEFT_SHIFT  &mo 2  &kp SPACE         &kp BACKSPACE  &mo 5    &kp LEFT_ARROW  &kp DOWN_ARROW  &lt 3 RIGHT
             >;
         };
 
