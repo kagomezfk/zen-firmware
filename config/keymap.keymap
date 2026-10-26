@@ -22,7 +22,7 @@
             bindings = <
 &kp ESCAPE        &kp Q             &kp W         &kp E          &kp R           &kp T  &kp Y             &kp U          &lt 4 I  &kp O           &kp P           &kp SQT
 &kp TAB           &kp A             &kp S         &kp D          &kp F           &kp G  &kp H             &kp J          &kp K    &kp L           &kp SEMICOLON   &kp ENTER
-&kp LSHFT         &kp Z             &kp X         &kp C          &kp V           &kp B  &kp LC(UP_ARROW)  &kp MINUS      &kp N    &kp M           &kp COMMA       &kp DOT      &kp UP_ARROW  &lt 1 QUESTION
+&kp LSHFT         &kp Z             &kp X         &kp C          &kp V           &kp B  &kp LC(UP_ARROW)  &kp MINUS      &kp N    &kp M           &kp COMMA       &kp DOT      &kp UP_ARROW  &kp Q
 &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LC(SPACE)  &kp LEFT_SHIFT  &mo 2  &kp SPACE         &kp BACKSPACE  &mo 5    &kp LEFT_ARROW  &kp DOWN_ARROW  &lt 3 RIGHT
             >;
         };
@@ -40,7 +40,7 @@
             bindings = <
 &kp MINUS     &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp PLUS      &kp N5     &kp CARET        &kp AMPERSAND  &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE
 &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp PRCNT  &kp EXCLAMATION  &kp AT_SIGN    &kp HASH   &kp DOLLAR            &kp PERCENT            &kp BACKSLASH
-&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp EQUAL  &trans           &trans         &kp TILDE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH
+&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp EQUAL  &trans           &trans         &kp TILDE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
 &trans        &trans        &trans        &trans        &trans        &trans     &trans           &trans         &trans     &trans                &trans                 &trans
             >;
         };
